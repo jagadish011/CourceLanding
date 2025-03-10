@@ -3,9 +3,17 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <section className="py-8 md:py-12 px-4 md:px-12 lg:px-24 text-center bg-white relative">
+        <section 
+            className="py-8 md:py-12 px-4 md:px-12 lg:px-24 text-center relative"
+            style={{
+                backgroundImage: `linear-gradient(to bottom, rgba(258, 258, 258, 1), rgba(255, 255, 255, 0.9)), url('/src/images/img1.webp')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+            }}
+        >
             <div className="max-w-5xl mx-auto">
-                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-navy-900 mb-6  ">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-navy-900 mb-6">
                     Join The <span className="text-orange-500">MY FOCUS </span>Workshop To Master <span className="text-orange-500">Concentration</span> And <span className="text-orange-500">Mindfulness</span> In Just 66 Days
                 </h1>
             </div>
