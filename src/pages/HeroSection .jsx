@@ -6,7 +6,7 @@ const HeroSection = () => {
         <section 
             className="py-8 md:py-12 px-4 md:px-12 lg:px-24 text-center relative"
             style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(258, 258, 258, 1), rgba(255, 255, 255, 0.9)), url('/src/images/image-2.jpg')`,
+                backgroundImage: `linear-gradient(to bottom, rgba(258, 258, 258, 1), rgba(255, 255, 255, 0.9)), url('/image-2.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
