@@ -6,6 +6,8 @@ import AboutCourseSection from './pages/AboutCourseSection';
 import FinancialFreedom from './pages/FinancialFreedom';
 import Testimonials from './pages/Testimonials';
 import HeroSection from './pages/HeroSection ';
+import CoachProfile from './pages/CoachProfile';
+import FaqSection from './pages/FaqSection';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +40,8 @@ function App() {
         <AboutCourseSection />
         <FinancialFreedom />
         <Testimonials />
+        <CoachProfile />
+        <FaqSection />
       </div>
 
       {/* Sticky Bottom Section */}
