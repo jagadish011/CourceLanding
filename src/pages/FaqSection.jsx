@@ -32,7 +32,7 @@ const FaqSection = () => {
   ];
 
   return (
-    <section className="py-20 px-6 sm:px-12 lg:px-20 bg-gray-50">
+    <section className="py-20 px-6 sm:px-12 lg:px-20 bg-gray-50 mb-10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-4">Frequently Asked Questions (FAQ)</h2>

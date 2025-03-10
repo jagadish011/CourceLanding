@@ -45,23 +45,24 @@ function App() {
       </div>
 
       {/* Sticky Bottom Section */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white shadow-2xl border-gray-200 z-50">
-        <div className="max-w-6xl mx-auto p-2 flex justify-between items-center">
-          <div>
-            <h3 className="text-xl font-semibold">MY FOCUS</h3>
-            <p className="text-lg text-purple-600">₹99/- Only</p>
+      <div class="fixed bottom-0 left-0 right-0 bg-white shadow-2xl border-gray-200 z-50">
+        <div class="max-w-6xl mx-auto p-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-semibold">MY FOCUS</h3>
+            <p class="text-lg text-purple-600">₹99/- Only</p>
           </div>
-          <div className="flex items-center space-x-4">
-            <div className="text-lg font-semibold">
+          <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 text-center md:text-right">
+            <div class="text-lg font-semibold">
               <span>Offer Ends in: </span>
-              <span className="text-purple-600">{formatTime(timeLeft)}</span>
+              <span class="text-purple-600">{formatTime(timeLeft)}</span>
             </div>
-            <button className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-6 rounded-full text-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <button class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-6 rounded-full text-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
               Register Now
             </button>
           </div>
         </div>
       </div>
+
     </>
   );
 }
